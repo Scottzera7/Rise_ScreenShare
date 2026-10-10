@@ -909,3 +909,39 @@ select:focus{border-color:var(--amber-line); box-shadow:0 0 0 3px var(--amber-so
     transition-duration:.01ms !important;
   }
 }
+
+/* ===== TDM7 - IDENTIDADE VISUAL ===== */
+
+:root {
+  --tinta-950: #080808;
+  --tinta-900: #101010;
+  --tinta-850: #171717;
+  --tinta-800: #202020;
+  --tinta-700: #303030;
+  --tinta-600: #424242;
+  --tinta-500: #666666;
+
+  --linha: rgba(255, 255, 255, 0.09);
+  --linha-forte: rgba(255, 255, 255, 0.16);
+
+  --tdm7-vermelho: #e32636;
+  --tdm7-vermelho-hover: #ff3949;
+}
+
+html,
+body {
+  background-color: #080808;
+}
+
+a {
+  color: #ff3949;
+}
+
+a:hover {
+  color: #ff6975;
+}
+
+::selection {
+  background: #e32636;
+  color: #ffffff;
+}
